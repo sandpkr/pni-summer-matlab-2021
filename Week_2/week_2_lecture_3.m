@@ -77,3 +77,14 @@ unique(mat_14)
 %% to reshape an array
 to_reshape_array=[1:1:10]
 reshape(to_reshape_array,[5,2])
+
+%% using end and end-1
+rand_integer_array=randi([-4 4], 1, 20);
+
+%% understanding nanmean
+test_array=[1 2 3 4 5];
+mean(test_array)
+
+with_nan_test_array=[1 2 3 4 5 nan];
+mean(with_nan_test_array)
+nanmean(with_nan_test_array)
