@@ -1,3 +1,4 @@
+
 %%%% combine while loop and if loop
 clc
 clear
