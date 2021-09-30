@@ -40,24 +40,3 @@ ylabel('Number of occurences','fontsize',14)
 title('Histogram of AP amplitude','fontsize',14);
 box off; 
 set(gca,'fontsize',14)
-% 
-% %%%%%%%%%%%%%%% Plotting histogram of peak widths %%%%%%%%%%%%%%%%%%%%%%%%%
-% figure;                                                   
-% width_hist = histogram(widths);                                         %%%% widths has all the width information of the AP peaks
-% width_hist.BinWidth = 0.05;                                              
-% xlabel('Width of AP (ms)','fontsize',14);
-% ylabel('Number of occurences','fontsize',14)                             
-% title('Histogram of AP width','fontsize',14);
-% box off; 
-% set(gca,'fontsize',18)
-% 
-% %% 
-% figure
-% plot(widths,pks,'ob')
-% xlabel('Width of AP (ms)','fontsize',14);
-% ylabel('Amplitude of AP (uV)','fontsize',14)                             
-% title('width vs amplitude of spikes','fontsize',14);
-% box off; 
-% set(gca,'fontsize',18)
-
-%%%%%%%% finding the location of 
